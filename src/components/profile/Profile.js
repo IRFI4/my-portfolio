@@ -6,7 +6,7 @@ const Profile = () => {
         <>
             <div className='profile'>
                 <div className='profile-left'>
-                    <p className='sub-title'>Frontend Developer</p>
+                    <h5 className='sub-title'>Frontend Developer</h5>
                     <h1 className='title'>Hello, I'm</h1>
                     <h1 className='title'><span>Vlad Hliadelkin</span></h1>
                     <p className='text'>

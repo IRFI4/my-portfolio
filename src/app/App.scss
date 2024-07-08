@@ -109,6 +109,7 @@ button {
 
 .profile {
     display: flex;
+    justify-content: space-between;
     margin: 40px 0;
 
     .profile-left {
@@ -192,7 +193,13 @@ button {
     align-items: center;
 
     .title {
-        margin: 62px 0;
+        margin: 90px 0 62px 0;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 81px;
     }
 
     .project-item {
@@ -207,7 +214,6 @@ button {
 
         .project-info {
             width: 505px;
-            height: 346px;
             padding: 34px 30px;
 
             .sub-title {
@@ -236,6 +242,237 @@ button {
                 border-radius: 50px;
                 font-family: 'MPLUS1Code';
                 font-size: 24px;
+            }
+        }
+    }
+}
+
+.resume {
+    display: flex;
+    // height: 650px;
+
+    .resume-left {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 369px;
+        padding: 111px 0;
+
+        .sub-title {
+            font-size: 48px;
+        }
+
+        .text {
+            width: 300px;
+            margin: 10px 0 30px 0;
+        }
+
+        .input-switcher {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+
+
+            input {
+                display: none;
+            }
+
+            label {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 300px;
+                height: 50px;
+                cursor: pointer;
+                border-radius: 5px;
+                background: var(--secondaryDark);
+                font-family: 'MPLUS1Code';
+                font-size: 20px;
+                color: #FFF;
+            }
+
+            input:checked+label {
+                background: var(--primaryLight);
+                color: var(--primaryDark);
+            }
+
+        }
+    }
+
+    .resume-right {
+        width: 641px;
+        padding: 121px 30px 72px 30px;
+
+        .text {
+            margin: 19px 0 35px 0;
+        }
+
+        .box-wrapper {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+
+            .rectangle-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 12px;
+                width: calc(50% - 73px);
+                max-height: 150px;
+                padding: 20px 30px;
+                background: var(--secondaryDark);
+                border-radius: 10px;
+                font-family: 'MPLUS1Code';
+                color: #FFF;
+
+                .box-title {
+                    font-size: 20px;
+                }
+
+                .box-company {
+                    display: flex;
+                    align-items: center;
+                    color: #CDCDCD;
+
+                    span {
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                        background: var(--primaryLight);
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact-wrapper {
+    display: flex;
+    padding: 55px 0;
+
+    .contact-left {
+        width: 505px;
+        height: 550px;
+
+        .contact-form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 25px;
+            background: var(--secondaryDark);
+            border-radius: 10px;
+
+            input {
+                width: calc(50% - 35px);
+                height: 35px;
+                padding: 2px 9px;
+                border: 2px solid transparent;
+                border-radius: 5px;
+                background: var(--primaryDark);
+                font-family: 'MPLUS1Code';
+                font-size: 14px;
+                color: #FFF;
+            }
+
+            input::placeholder {
+                font-family: 'MPLUS1Code';
+                font-size: 14px;
+                color: #CDCDCD;
+            }
+
+            input:hover {
+                border: 2px solid var(--primaryLight);
+            }
+
+            input:focus {
+                border: 2px solid var(--primaryLight);
+            }
+
+            select {
+                width: 100%;
+                height: 42px;
+                padding: 0 9px;
+                border: 2px solid transparent;
+                border-radius: 5px;
+                background: var(--primaryDark);
+                font-family: 'MPLUS1Code';
+                font-size: 14px;
+                color: #CDCDCD;
+            }
+
+            select:hover {
+                border: 2px solid var(--primaryLight);
+            }
+
+            select:focus {
+                border: 2px solid var(--primaryLight);
+            }
+
+            textarea {
+                width: 100%;
+                padding: 9px;
+                background: var(--primaryDark);
+                border: 2px solid transparent;
+                border-radius: 5px;
+                font-family: 'MPLUS1Code';
+                font-size: 14px;
+                color: #FFF;
+            }
+
+            textarea::placeholder {
+                color: #CDCDCD;
+            }
+
+            textarea:hover {
+                border: 2px solid var(--primaryLight);
+            }
+
+            textarea:focus {
+                border: 2px solid var(--primaryLight);
+            }
+
+            button {
+                height: 35px;
+                padding: 8px 17px;
+                border-radius: 30px;
+                background: var(--primaryLight);
+                color: var(--primaryDark);
+            }
+        }
+    }
+
+    .contact-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 505px;
+        height: 505px;
+
+        .info-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .info-block {
+                display: flex;
+                align-items: center;
+
+                .icon-block {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 70px;
+                    height: 70px;
+                    background: var(--secondaryDark);
+                    border-radius: 3px;
+
+                    .icon {
+                        width: 35px;
+                        height: 35px;
+                    }
+                }
             }
         }
     }

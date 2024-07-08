@@ -6,9 +6,11 @@ const Projects = () => {
     return (
         <div className='projects-wrapper'>
             <h1 className='title'>My latest projects</h1>
-            {data.projects.map(item =>
-                <ProjectItem key={item.source} data={item} />
-            )}
+            <div className='projects-container'>
+                {data.projects.map(item =>
+                    <ProjectItem key={item.source} data={item} />
+                )}
+            </div>
         </div>
     )
 }

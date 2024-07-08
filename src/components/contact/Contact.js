@@ -1,0 +1,56 @@
+import React from 'react'
+import Icon from '../ui/icon/Icon'
+const Contact = () => {
+    return (
+        <div className='contact-wrapper'>
+            <div className='contact-left'>
+                <form className='contact-form'>
+                    <h4 className='sub-title'><span>Let's work together</span></h4>
+                    <p className='text'>
+                        Lorem ipsum dolor sit some text which no one gonna read,
+                        and one more tex. We need more text.
+                    </p>
+                    <input type='text' placeholder='First name' />
+                    <input type='text' placeholder='Last name ' />
+                    <input type='email' placeholder='Email address' />
+                    <input type='phone' placeholder='Phone number' />
+                    <select>
+                        <option>Select a service</option>
+                        <option>Web Development</option>
+                        <option>UI/UX Design</option>
+                        <option>Logo Design</option>
+                    </select>
+                    <textarea placeholder='Type your message here.'></textarea>
+                    <button type='submit'>Send message</button>
+                </form>
+            </div>
+            <div className='contact-right'>
+                <div className='info-wrapper'>
+                    <div className='info-block'>
+                        <div className='icon-block'>
+                            <Icon id='phone' className='icon' />
+                        </div>
+                        <p className='text'>Phone</p>
+                        <p className='text'>(+380)95 104 96 88</p>
+                    </div>
+                    <div className='info-block'>
+                        <div className='icon-block'>
+                            <Icon id='mail' className='icon' />
+                        </div>
+                        <p className='text'>Email</p>
+                        <p className='text'>vladisglyadelkin@gmail.com</p>
+                    </div>
+                    <div className='info-block'>
+                        <div className='icon-block'>
+                            <Icon id='location' className='icon' />
+                        </div>
+                        <p className='text'>Address</p>
+                        <p className='text'>Ukraine, Marhanets 53400</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Contact
