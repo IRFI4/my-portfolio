@@ -344,6 +344,27 @@ button {
                     }
                 }
             }
+
+            .square-box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: calc(25% - 19px);
+                height: 141px;
+                border-radius: 8px;
+                background: var(--secondaryDark);
+
+                svg {
+                    width: 65px;
+                    height: 65px;
+                    fill: var(--primaryDark);
+                    stroke: #000;
+                }
+            }
+
+            .square-box:hover>svg {
+                fill: var(--primaryLight);
+            }
         }
     }
 }
@@ -400,6 +421,19 @@ button {
                 font-family: 'MPLUS1Code';
                 font-size: 14px;
                 color: #CDCDCD;
+
+                option {
+                    height: 30px;
+                    padding: 2px 9px;
+                    background: var(--primaryDark);
+                    font-family: 'MPLUS1Code';
+                    font-size: 14px;
+                }
+
+                option:checked {
+                    background: var(--primaryLight);
+                    color: #000;
+                }
             }
 
             select:hover {
@@ -412,10 +446,13 @@ button {
 
             textarea {
                 width: 100%;
+                min-height: 100px;
+                max-height: 150px;
                 padding: 9px;
                 background: var(--primaryDark);
                 border: 2px solid transparent;
                 border-radius: 5px;
+                resize: vertical;
                 font-family: 'MPLUS1Code';
                 font-size: 14px;
                 color: #FFF;
@@ -471,6 +508,18 @@ button {
                     .icon {
                         width: 35px;
                         height: 35px;
+                    }
+                }
+
+                .text-block {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6px;
+                    padding: 15px 20px;
+
+                    .dark {
+                        color: #CDCDCD;
+                        font-size: 14px;
                     }
                 }
             }

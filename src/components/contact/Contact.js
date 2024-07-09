@@ -30,22 +30,28 @@ const Contact = () => {
                         <div className='icon-block'>
                             <Icon id='phone' className='icon' />
                         </div>
-                        <p className='text'>Phone</p>
-                        <p className='text'>(+380)95 104 96 88</p>
+                        <div className='text-block'>
+                            <p className='text dark'>Phone</p>
+                            <p className='text'>(+380)95 104 96 88</p>
+                        </div>
                     </div>
                     <div className='info-block'>
                         <div className='icon-block'>
                             <Icon id='mail' className='icon' />
                         </div>
-                        <p className='text'>Email</p>
-                        <p className='text'>vladisglyadelkin@gmail.com</p>
+                        <div className='text-block'>
+                            <p className='text dark'>Email</p>
+                            <p className='text'>vladisglyadelkin@gmail.com</p>
+                        </div>
                     </div>
                     <div className='info-block'>
                         <div className='icon-block'>
                             <Icon id='location' className='icon' />
                         </div>
-                        <p className='text'>Address</p>
-                        <p className='text'>Ukraine, Marhanets 53400</p>
+                        <div className='text-block'>
+                            <p className='text dark'>Address</p>
+                            <p className='text'>Ukraine, Marhanets 53400</p>
+                        </div>
                     </div>
                 </div>
             </div>

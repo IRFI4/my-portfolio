@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ExperienceItem = () => {
+const EducationItem = () => {
     return (
         <div className='rectangle-box'>
             <p className='box-date'><span>Summer 2024</span></p>
@@ -10,4 +10,4 @@ const ExperienceItem = () => {
     )
 }
 
-export default ExperienceItem
+export default EducationItem
