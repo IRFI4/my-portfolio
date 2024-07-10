@@ -46,6 +46,10 @@ body {
     color: var(--secondaryLight);
 }
 
+.dark {
+    color: #B4B4B4;
+}
+
 .title {
     font-family: 'MuseoModerno';
     font-size: 64px;
@@ -249,7 +253,7 @@ button {
 
 .resume {
     display: flex;
-    // height: 650px;
+    height: 650px;
 
     .resume-left {
         display: flex;
@@ -364,6 +368,13 @@ button {
 
             .square-box:hover>svg {
                 fill: var(--primaryLight);
+            }
+
+            .text-wrapper {
+                width: 260px;
+                height: 30px;
+                display: flex;
+                gap: 10px;
             }
         }
     }
@@ -518,7 +529,6 @@ button {
                     padding: 15px 20px;
 
                     .dark {
-                        color: #CDCDCD;
                         font-size: 14px;
                     }
                 }

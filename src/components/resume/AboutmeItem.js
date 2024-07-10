@@ -1,8 +1,11 @@
 import React from 'react'
 
-const AboutmeItem = () => {
+const AboutmeItem = ({ id, value }) => {
     return (
-        <div>AboutmeItem</div>
+        <div className='text-wrapper'>
+            <p className='text dark'>{id}</p>
+            <p className='text'>{value}</p>
+        </div>
     )
 }
 
