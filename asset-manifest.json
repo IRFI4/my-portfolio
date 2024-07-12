@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.cd03ca45.css",
+    "main.js": "/my-portfolio/static/js/main.b11476e9.js",
+    "static/media/MPLUS1Code-Regular.woff": "/my-portfolio/static/media/MPLUS1Code-Regular.27d843eafe30f52dbafd.woff",
+    "static/media/MPLUS1Code-Regular.woff2": "/my-portfolio/static/media/MPLUS1Code-Regular.bdf0bf89260de9c3549e.woff2",
+    "static/media/background.jpg": "/my-portfolio/static/media/background.e59144cb8742f065cbfb.jpg",
+    "static/media/MuseoModerno-Regular.woff": "/my-portfolio/static/media/MuseoModerno-Regular.74536b3ba088b54be8ee.woff",
+    "static/media/MuseoModerno-Regular.woff2": "/my-portfolio/static/media/MuseoModerno-Regular.fbc4502097709f37be3b.woff2",
+    "static/media/arialroundedmtbold.woff": "/my-portfolio/static/media/arialroundedmtbold.99b4a6e1c79a545163b3.woff",
+    "static/media/sprite.svg": "/my-portfolio/static/media/sprite.7acfff76feaff0157b2a93f62bc80f3b.svg",
+    "static/media/arialroundedmtbold.woff2": "/my-portfolio/static/media/arialroundedmtbold.f464166d2761650b7dcb.woff2",
+    "index.html": "/my-portfolio/index.html",
+    "main.cd03ca45.css.map": "/my-portfolio/static/css/main.cd03ca45.css.map",
+    "main.b11476e9.js.map": "/my-portfolio/static/js/main.b11476e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd03ca45.css",
+    "static/js/main.b11476e9.js"
+  ]
+}
