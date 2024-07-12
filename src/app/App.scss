@@ -205,6 +205,14 @@ button {
             height: 200px;
             border-radius: 10px;
             background: var(--secondaryDark);
+            overflow: hidden;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
 
         .project-info {
@@ -377,7 +385,7 @@ button {
                 width: 100%;
                 height: 30px;
                 display: flex;
-                // gap: 10px;
+                gap: 10px;
             }
         }
     }
@@ -685,6 +693,15 @@ button {
                 height: 346px;
                 border-radius: 20px;
                 background: var(--secondaryDark);
+                background-size: contain;
+                background-repeat: no-repeat;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                }
             }
 
             .project-info {

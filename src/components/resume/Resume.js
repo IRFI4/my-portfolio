@@ -8,7 +8,7 @@ const Resume = () => {
     const [content, setContent] = useState('education')
 
     return (
-        <div className='resume'>
+        <section className='resume'>
             <div className='resume-left'>
                 <h2 className='sub-title'>Why hire me?</h2>
                 <p className='text'>Lorem ipsum some text which no one gonna read bla bla bla</p>
@@ -58,7 +58,7 @@ const Resume = () => {
                 {content === 'skills' && <Skills />}
                 {content === 'aboutme' && <Aboutme />}
             </div>
-        </div>
+        </section>
     )
 }
 

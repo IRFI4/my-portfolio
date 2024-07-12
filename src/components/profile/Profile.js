@@ -3,7 +3,7 @@ import Icon from '../ui/icon/Icon'
 
 const Profile = () => {
     return (
-        <>
+        <section>
             <div className='profile'>
                 <div className='profile-left'>
                     <h5 className='sub-title'>Frontend Developer</h5>
@@ -50,7 +50,7 @@ const Profile = () => {
                     <p>Code commits</p>
                 </div>
             </div>
-        </>
+        </section>
     )
 }
 

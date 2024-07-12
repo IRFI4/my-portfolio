@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from '../ui/icon/Icon'
 const Contact = () => {
     return (
-        <div className='contact-wrapper'>
+        <section className='contact-wrapper'>
             <div className='contact-left'>
                 <form className='contact-form'>
                     <h4 className='sub-title'><span>Let's work together</span></h4>
@@ -55,7 +55,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
