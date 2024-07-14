@@ -2,13 +2,13 @@ import React from 'react'
 import Icon from '../ui/icon/Icon'
 const Contact = () => {
     return (
-        <section className='contact-wrapper'>
+        <section id='contact' className='contact-wrapper'>
             <div className='contact-left'>
                 <form className='contact-form'>
                     <h4 className='sub-title'><span>Let's work together</span></h4>
                     <p className='text'>
-                        Lorem ipsum dolor sit some text which no one gonna read,
-                        and one more tex. We need more text.
+                        I'm always excited to connect with new people and
+                        explore opportunities for collaboration.
                     </p>
                     <input type='text' placeholder='First name' />
                     <input type='text' placeholder='Last name ' />

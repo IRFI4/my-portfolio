@@ -1,19 +1,18 @@
-import React from 'react'
-import Link from '../ui/link/Link'
-// import Text from '../ui/text/Text'
+import { Link } from 'react-scroll'
+import Icon from '../ui/icon/Icon'
 
-const Header = () => {
+const Header = ({ onClick }) => {
     return (
         <header className='header'>
             <p className='title'>Vlad<span>.</span></p>
-
             <nav className='navigation'>
-                <Link url={'#'} text='Home' className='nav-item' />
-                <Link url={'#'} text='Projects' className='nav-item' />
-                <Link url={'#'} text='Skills' className='nav-item' />
-                <Link url={'#'} text='Contact' className='nav-item' />
-                <Link url={'#'} text='Hire me' className='nav-item' />
+                <Link to="profile" smooth={true} duration={500} className='nav-item'>Home</Link>
+                <Link to="projects" smooth={true} duration={500} className='nav-item'>Projects</Link>
+                <Link to="resume" smooth={true} duration={500} className='nav-item'>Skills</Link>
+                <Link to="contact" smooth={true} duration={500} className='nav-item'>Contact</Link>
+                <Link to="contact" smooth={true} duration={500} className='nav-item'>Hire me</Link>
             </nav>
+            <Icon id='menu' className='nav-menu' onClick={onClick} />
         </header>
     )
 }

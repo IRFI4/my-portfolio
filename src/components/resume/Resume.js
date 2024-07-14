@@ -8,10 +8,13 @@ const Resume = () => {
     const [content, setContent] = useState('education')
 
     return (
-        <section className='resume'>
+        <section id='resume' className='resume'>
             <div className='resume-left'>
                 <h2 className='sub-title'>Why hire me?</h2>
-                <p className='text'>Lorem ipsum some text which no one gonna read bla bla bla</p>
+                <p className='text'>
+                    As a dedicated Frontend Developer,
+                    I bring creativity and technical skill to every my project.
+                </p>
                 <div className='input-switcher'>
 
                     <input

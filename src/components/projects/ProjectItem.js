@@ -13,7 +13,7 @@ const ProjectItem = ({ data }) => {
                 <p className='text'>{data.description}</p>
                 <div className='technologies'>
                     {data.technologies.map(item =>
-                        <Placeholder text={item} />
+                        <Placeholder key={item} text={item} />
                     )}
                 </div>
                 <button className='project-btn'>Move to the project</button>

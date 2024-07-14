@@ -4,7 +4,7 @@ import data from '../../data'
 
 const Projects = () => {
     return (
-        <section className='projects-wrapper'>
+        <section id='projects' className='projects-wrapper'>
             <h1 className='title'>My latest projects</h1>
             <div className='projects-container'>
                 {data.projects.map(item =>
