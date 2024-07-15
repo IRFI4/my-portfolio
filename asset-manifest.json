@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.e7c8cbe1.css",
-    "main.js": "/my-portfolio/static/js/main.e1b46f26.js",
+    "main.css": "/my-portfolio/static/css/main.9cac774d.css",
+    "main.js": "/my-portfolio/static/js/main.2c66e6df.js",
+    "static/media/JS_CheatSheet.pdf": "/my-portfolio/static/media/JS_CheatSheet.51a8e7e8f4aa7950050e.pdf",
     "static/media/MPLUS1Code-Regular.woff": "/my-portfolio/static/media/MPLUS1Code-Regular.27d843eafe30f52dbafd.woff",
     "static/media/MPLUS1Code-Regular.woff2": "/my-portfolio/static/media/MPLUS1Code-Regular.bdf0bf89260de9c3549e.woff2",
     "static/media/background.jpg": "/my-portfolio/static/media/background.e59144cb8742f065cbfb.jpg",
@@ -9,14 +10,14 @@
     "static/media/MuseoModerno-Regular.woff": "/my-portfolio/static/media/MuseoModerno-Regular.74536b3ba088b54be8ee.woff",
     "static/media/MuseoModerno-Regular.woff2": "/my-portfolio/static/media/MuseoModerno-Regular.fbc4502097709f37be3b.woff2",
     "static/media/arialroundedmtbold.woff": "/my-portfolio/static/media/arialroundedmtbold.99b4a6e1c79a545163b3.woff",
-    "static/media/sprite.svg": "/my-portfolio/static/media/sprite.d30f36d6dee02bbbc43874b50dc94f5d.svg",
+    "static/media/sprite.svg": "/my-portfolio/static/media/sprite.0fd7104c5abcf1c32a25882849f933e6.svg",
     "static/media/arialroundedmtbold.woff2": "/my-portfolio/static/media/arialroundedmtbold.f464166d2761650b7dcb.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.e7c8cbe1.css.map": "/my-portfolio/static/css/main.e7c8cbe1.css.map",
-    "main.e1b46f26.js.map": "/my-portfolio/static/js/main.e1b46f26.js.map"
+    "main.9cac774d.css.map": "/my-portfolio/static/css/main.9cac774d.css.map",
+    "main.2c66e6df.js.map": "/my-portfolio/static/js/main.2c66e6df.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7c8cbe1.css",
-    "static/js/main.e1b46f26.js"
+    "static/css/main.9cac774d.css",
+    "static/js/main.2c66e6df.js"
   ]
 }
