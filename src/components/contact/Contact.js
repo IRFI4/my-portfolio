@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <section id='contact' className='contact-wrapper'>
             <div className='contact-left'>
-                <form className='contact-form'>
+                <form className='contact-form' action="mailto:vladisglyadelkin@gmail.com" method="post" enctype="text/plain">
                     <h4 className='sub-title'><span>Let's work together</span></h4>
                     <p className='text'>
                         I'm always excited to connect with new people and

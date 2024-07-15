@@ -1,6 +1,7 @@
 import React from 'react'
 import Icon from '../ui/icon/Icon'
 import profile from '../../assets/images/photo.jpg'
+import resume from '../../assets/resume/JS_CheatSheet.pdf'
 
 const Profile = () => {
     return (
@@ -17,7 +18,9 @@ const Profile = () => {
                         and a strong willingness to embrace new technologies.
                     </p>
                     <div className='social'>
-                        <button className='cv-download'>Download CV <Icon id='download' className='icon' /></button>
+                        <a href={resume} download>
+                            <button className='cv-download'>Download CV <Icon id='download' className='icon' /></button>
+                        </a>
                         <div className='icon-wrapper'><Icon id='github' className='icon' /></div>
                         <div className='icon-wrapper'><Icon id='linkedin' className='icon' /></div>
                         <div className='icon-wrapper'><Icon id='instagram' className='icon' /></div>

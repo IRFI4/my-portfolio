@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App">
 
-      <Menu menuOpen={menuOpen} onClick={toggleMenu} />
-      <Header onClick={toggleMenu} />
+      <Menu menuOpen={menuOpen} onClickMenu={toggleMenu} />
+      <Header onClickMenu={toggleMenu} />
       <Profile />
       <Projects />
       <Resume />

@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll'
 import Icon from '../ui/icon/Icon'
 
-const Header = ({ onClick }) => {
+const Header = ({ onClickMenu }) => {
     return (
         <header className='header'>
             <p className='title'>Vlad<span>.</span></p>
@@ -12,7 +12,7 @@ const Header = ({ onClick }) => {
                 <Link to="contact" smooth={true} duration={500} className='nav-item'>Contact</Link>
                 <Link to="contact" smooth={true} duration={500} className='nav-item'>Hire me</Link>
             </nav>
-            <Icon id='menu' className='nav-menu' onClick={onClick} />
+            <Icon id='menu' className='nav-menu' onClick={onClickMenu} />
         </header>
     )
 }
