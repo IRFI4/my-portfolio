@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Icon from '../ui/icon/Icon'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
+    const form = useRef()
 
     const sendEmail = (e) => {
         e.preventDefault()
 
-        emailjs.sendForm('service_cw8fmmo', 'template_6z4zuuk', e.target, 'QjI65UGkSHIE7D01g')
+        emailjs.sendForm('service_cw8fmmo', 'template_6z4zuuk', form.current, 'QjI65UGkSHIE7D01g')
             .then((result) => {
-                console.log(result.text)
+                form.current.reset()
             }, (error) => {
                 console.log(error.text)
             })
@@ -18,7 +19,7 @@ const Contact = () => {
     return (
         <section id='contact' className='contact-wrapper'>
             <div className='contact-left'>
-                <form className='contact-form' onSubmit={sendEmail}>
+                <form ref={form} className='contact-form' onSubmit={sendEmail}>
                     <h4 className='sub-title'><span>Let's work together</span></h4>
                     <p className='text'>
                         I'm always excited to connect with new people and
