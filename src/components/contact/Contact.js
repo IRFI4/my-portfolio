@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import Icon from '../ui/icon/Icon'
 import emailjs from 'emailjs-com'
+import data from '../../data'
 
 const Contact = () => {
     const form = useRef()
@@ -41,33 +42,17 @@ const Contact = () => {
             </div>
             <div className='contact-right'>
                 <div className='info-wrapper'>
-                    <div className='info-block'>
-                        <div className='icon-block'>
-                            <Icon id='phone' className='icon' />
+                    {data.contact.map(item => (
+                        <div className='info-block'>
+                            <div className='icon-block'>
+                                <Icon id={item.icon} className='icon' />
+                            </div>
+                            <div className='text-block'>
+                                <p className='text dark'>{item.id}</p>
+                                <p className='text'>{item.value}</p>
+                            </div>
                         </div>
-                        <div className='text-block'>
-                            <p className='text dark'>Phone</p>
-                            <p className='text'>(+380)95 104 96 88</p>
-                        </div>
-                    </div>
-                    <div className='info-block'>
-                        <div className='icon-block'>
-                            <Icon id='mail' className='icon' />
-                        </div>
-                        <div className='text-block'>
-                            <p className='text dark'>Email</p>
-                            <p className='text'>vladisglyadelkin@gmail.com</p>
-                        </div>
-                    </div>
-                    <div className='info-block'>
-                        <div className='icon-block'>
-                            <Icon id='location' className='icon' />
-                        </div>
-                        <div className='text-block'>
-                            <p className='text dark'>Address</p>
-                            <p className='text'>Ukraine, Marhanets 53400</p>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </section>

@@ -1,4 +1,34 @@
 const data = {
+    social: [
+        {
+            icon: 'github',
+            href: 'https://github.com/IRFI4'
+        }, {
+            icon: 'linkedin',
+            href: 'https://www.linkedin.com/in/vald-hliadielkin-0bb641288/'
+        }, {
+            icon: 'instagram',
+            href: 'https://www.instagram.com/gliadelki/'
+        }, {
+            icon: 'twitter',
+            href: '#'
+        }
+    ],
+    stats: [
+        {
+            count: 3,
+            achievement: 'Personal projects'
+        }, {
+            count: 8,
+            achievement: 'Technologies learned'
+        }, {
+            count: 3,
+            achievement: 'Open source contributions'
+        }, {
+            count: 100,
+            achievement: 'Code commits'
+        }
+    ],
     projects: [
         {
             imageUrl: '#',
@@ -20,6 +50,89 @@ const data = {
             source: '3'
         }
     ],
+    experience: [
+        {
+            date: 'Summer 2024',
+            positon: 'Intern Frontend Developer',
+            company: 'Company name 1'
+        }, {
+            date: 'Summer 2024',
+            positon: 'Intern Frontend Developer',
+            company: 'Company name 2'
+        }, {
+            date: 'Summer 2024',
+            positon: 'Intern Frontend Developer',
+            company: 'Company name 3'
+        }, {
+            date: 'Summer 2024',
+            positon: 'Intern Frontend Developer',
+            company: 'Company name 4'
+        }
+    ],
+    education: [
+        {
+            date: 'Summer 2024',
+            positon: 'Intern Frontend Developer',
+            company: 'Company name 1'
+        }, {
+            date: 'Summer 2024',
+            positon: 'Intern Frontend Developer',
+            company: 'Company name 2'
+        }, {
+            date: 'Summer 2024',
+            positon: 'Intern Frontend Developer',
+            company: 'Company name 3'
+        }, {
+            date: 'Summer 2024',
+            positon: 'Intern Frontend Developer',
+            company: 'Company name 4'
+        }
+    ],
+    skills: [
+        'html', 'css', 'js', 'react', 'redux', 'node', 'next', 'figma'
+    ],
+    aboutMe: [
+        {
+            id: 'Name',
+            value: 'Vlad Hliadielkin'
+        }, {
+            id: 'Experience',
+            value: '22+ Years'
+        }, {
+            id: 'Nationality',
+            value: 'Ukrainian'
+        }, {
+            id: 'Freelance',
+            value: 'Available'
+        }, {
+            id: 'Phone',
+            value: '(+380)95 104 9688'
+        }, {
+            id: 'Discord',
+            value: 'vlad#2816'
+        }, {
+            id: 'Email',
+            value: 'vladisglyadelkin@gmail.com'
+        }, {
+            id: 'Languages',
+            value: 'English, Ukrainian'
+        }
+    ],
+    contact: [
+        {
+            icon: 'phone',
+            id: 'Phone',
+            value: '(+380)95 104 9688'
+        }, {
+            icon: 'mail',
+            id: 'Email',
+            value: 'vladisglyadelkin@gmail.com'
+        }, {
+            icon: 'location',
+            id: 'Address',
+            value: 'Ukraine, Marhanets 53400'
+        }
+    ]
 }
 
 export default data

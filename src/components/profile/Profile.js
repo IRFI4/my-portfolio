@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from '../ui/icon/Icon'
 import profile from '../../assets/images/photo.jpg'
 import resume from '../../assets/resume/JS_CheatSheet.pdf'
-
+import data from '../../data'
 const Profile = () => {
     return (
         <section>
@@ -21,10 +21,9 @@ const Profile = () => {
                         <a href={resume} download>
                             <button className='cv-download'>Download CV <Icon id='download' className='icon' /></button>
                         </a>
-                        <div className='icon-wrapper'><Icon id='github' className='icon' /></div>
-                        <div className='icon-wrapper'><Icon id='linkedin' className='icon' /></div>
-                        <div className='icon-wrapper'><Icon id='instagram' className='icon' /></div>
-                        <div className='icon-wrapper'><Icon id='twitter' className='icon' /></div>
+                        {data.social.map(item => (
+                            <a target='_blank' rel='noreferrer' href={item.href} key={item.icon} className='icon-wrapper'><Icon id={item.icon} className='icon' /></a>
+                        ))}
                     </div>
                 </div>
 
@@ -35,25 +34,12 @@ const Profile = () => {
                 </div>
             </div>
             <div className='profile-bottom'>
-                <div className='profile-bottom-wrapper'>
-                    <b>3</b>
-                    <p>Personal projects</p>
-                </div>
-
-                <div className='profile-bottom-wrapper'>
-                    <b>8</b>
-                    <p>Technologies learned</p>
-                </div>
-
-                <div className='profile-bottom-wrapper'>
-                    <b>3</b>
-                    <p>Open source contributions</p>
-                </div>
-
-                <div className='profile-bottom-wrapper'>
-                    <b>100</b>
-                    <p>Code commits</p>
-                </div>
+                {data.stats.map(item => (
+                    <div key={item.achievement} className='profile-bottom-wrapper'>
+                        <b>{item.count}</b>
+                        <p>{item.achievement}</p>
+                    </div>
+                ))}
             </div>
         </section>
     )

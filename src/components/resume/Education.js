@@ -1,5 +1,6 @@
 import React from 'react'
-import EducationItem from './EducationItem'
+import data from '../../data'
+
 const Education = () => {
     return (
         <>
@@ -9,10 +10,13 @@ const Education = () => {
                 having produced 3 major works for my portfolio.
             </p>
             <div className='box-wrapper'>
-                <EducationItem />
-                <EducationItem />
-                <EducationItem />
-                <EducationItem />
+                {data.education.map(item => (
+                    <div className='rectangle-box' key={item.company}>
+                        <p className='box-date'><span>{item.date}</span></p>
+                        <p className='box-title'>{item.positon}</p>
+                        <p className='box-company'><span></span>{item.company}</p>
+                    </div>
+                ))}
             </div>
         </>
     )

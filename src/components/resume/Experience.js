@@ -1,5 +1,5 @@
 import React from 'react'
-import ExperienceItem from './ExperienceItem'
+import data from '../../data'
 
 const Experience = () => {
     return (
@@ -10,10 +10,13 @@ const Experience = () => {
                 having produced 3 major works for my portfolio.
             </p>
             <div className='box-wrapper'>
-                <ExperienceItem />
-                <ExperienceItem />
-                <ExperienceItem />
-                <ExperienceItem />
+                {data.experience.map(item => (
+                    <div className='rectangle-box'>
+                        <p className='box-date'><span>{item.date}</span></p>
+                        <p className='box-title'>{item.positon}</p>
+                        <p className='box-company'><span></span>{item.company}</p>
+                    </div>
+                ))}
             </div>
         </>
     )

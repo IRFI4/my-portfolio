@@ -1,7 +1,6 @@
 import React from 'react'
-import SkillsItem from './SkillsItem'
-
-
+import data from '../../data'
+import Icon from '../ui/icon/Icon'
 
 const Skills = () => {
     return (
@@ -12,14 +11,11 @@ const Skills = () => {
                 having produced 3 major works for my portfolio.
             </p>
             <div className='box-wrapper'>
-                <SkillsItem id='html' />
-                <SkillsItem id='css' />
-                <SkillsItem id='js' />
-                <SkillsItem id='react' />
-                <SkillsItem id='redux' />
-                <SkillsItem id='node' />
-                <SkillsItem id='next' />
-                <SkillsItem id='figma' />
+                {data.skills.map(item => (
+                    <div className='square-box' key={item}>
+                        <Icon id={item} className='icon' />
+                    </div>
+                ))}
             </div>
         </>
     )
