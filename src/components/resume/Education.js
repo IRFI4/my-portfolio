@@ -13,7 +13,7 @@ const Education = () => {
                 {data.education.map(item => (
                     <div className='rectangle-box' key={item.company}>
                         <p className='box-date'><span>{item.date}</span></p>
-                        <p className='box-title'>{item.positon}</p>
+                        <p className='box-title'>{item.name}</p>
                         <p className='box-company'><span></span>{item.company}</p>
                     </div>
                 ))}

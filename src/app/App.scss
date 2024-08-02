@@ -268,14 +268,10 @@ a {
     }
 
     .projects-container {
-        // display: flex;
-        // flex-direction: column;
         width: 350px;
-        // gap: 81px;
     }
 
     .project-item {
-        // display: flex;
 
         padding: 25px 0;
 
@@ -295,7 +291,6 @@ a {
         }
 
         .project-info {
-            // width: 505px;
             padding: 25px 0;
 
             .sub-title {
@@ -306,7 +301,6 @@ a {
                 display: flex;
                 gap: 10px;
                 flex-wrap: wrap;
-                // width: 450px;
                 margin: 15px 0 25px 0;
 
                 .placeholder {
@@ -334,8 +328,6 @@ a {
     flex-direction: column;
     align-items: center;
 
-    // height: 650px;
-
     .resume-left {
         display: flex;
         align-items: center;
@@ -343,7 +335,6 @@ a {
         text-align: center;
         width: 350px;
         padding: 25px;
-        // padding: 111px 0;
 
         .sub-title {
             font-size: 40px;
@@ -390,7 +381,6 @@ a {
     .resume-right {
         width: 350px;
         text-align: center;
-        // padding: 121px 30px 72px 30px;
 
         .text {
             margin: 18px 0 15px 0;
@@ -398,7 +388,6 @@ a {
 
         .box-wrapper {
             display: flex;
-            // flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
@@ -408,7 +397,6 @@ a {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                // gap: 12px;
                 width: 278px;
                 height: 150px;
                 padding: 20px;
@@ -474,11 +462,9 @@ a {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    // padding: 55px 0;
 
     .contact-left {
         width: 350px;
-        // height: 550px;
 
         .contact-form {
             display: flex;
@@ -553,9 +539,6 @@ a {
         display: flex;
         justify-content: center;
         margin: 30px 0;
-        // align-items: center;
-        // width: 300px;
-        // height: 250px;
 
         .info-wrapper {
             display: flex;

@@ -71,20 +71,20 @@ const data = {
     ],
     education: [
         {
-            date: 'Summer 2024',
-            positon: 'Intern Frontend Developer',
-            company: 'Company name 1'
+            date: 'Jul 2024 - Aug 2024',
+            name: 'Node.js Basics',
+            company: 'ITVDN'
         }, {
-            date: 'Summer 2024',
-            positon: 'Intern Frontend Developer',
-            company: 'Company name 2'
+            date: 'Jun 2024 - Jul 2024',
+            name: '30 Days of JavaScript',
+            company: 'LeetCode'
         }, {
-            date: 'Summer 2024',
-            positon: 'Intern Frontend Developer',
-            company: 'Company name 3'
+            date: 'Mar 2024 - May 2024',
+            name: 'Frontend Development',
+            company: 'Mimo'
         }, {
-            date: 'Summer 2024',
-            positon: 'Intern Frontend Developer',
+            date: 'Feb 2024 - Mar 2024',
+            name: 'Full Stack Development',
             company: 'Company name 4'
         }
     ],
@@ -96,8 +96,8 @@ const data = {
             id: 'Name',
             value: 'Vlad Hliadielkin'
         }, {
-            id: 'Experience',
-            value: '22+ Years'
+            id: 'Age',
+            value: '21 Years'
         }, {
             id: 'Nationality',
             value: 'Ukrainian'
