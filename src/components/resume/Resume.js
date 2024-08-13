@@ -17,14 +17,14 @@ const Resume = () => {
                 </p>
                 <div className='input-switcher'>
 
-                    <input
+                    {/* <input
                         onChange={() => setContent('experience')}
                         checked={content === 'experience'}
                         value='experience'
                         type='radio'
                         id='experience'
                         name='content' />
-                    <label htmlFor='experience'>Experience</label>
+                    <label htmlFor='experience'>Experience</label> */}
 
                     <input
                         onChange={() => setContent('education')}

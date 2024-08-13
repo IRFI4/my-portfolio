@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from '../ui/icon/Icon'
 import profile from '../../assets/images/photo.jpg'
-import resume from '../../assets/resume/JS_CheatSheet.pdf'
+import resume from '../../assets/resume/hliadielkin-vlad-eng.pdf'
 import data from '../../data'
 const Profile = () => {
     return (

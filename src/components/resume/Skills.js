@@ -7,8 +7,9 @@ const Skills = () => {
         <>
             <h5 className='sub-title'>My skills</h5>
             <p className='text'>
-                In terms of my skills, I have completed ... course for frontend developers,
-                having produced 3 major works for my portfolio.
+                I possess a strong skill set in modern web development technologies,
+                including HTML, CSS, JavaScript, and React. My proficiency extends to
+                TypeScript, Node.js, and Next.js, allowing me to build robust and scalable web applications.
             </p>
             <div className='box-wrapper'>
                 {data.skills.map(item => (

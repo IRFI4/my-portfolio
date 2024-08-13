@@ -6,8 +6,8 @@ const Education = () => {
         <>
             <h5 className='sub-title'>My eductaion</h5>
             <p className='text'>
-                In terms of education, I have completed ... course for frontend developers,
-                having produced 3 major works for my portfolio.
+                In terms of education, I have successfully completed several
+                rigorous courses, each enhancing my knowledge and skills.
             </p>
             <div className='box-wrapper'>
                 {data.education.map(item => (

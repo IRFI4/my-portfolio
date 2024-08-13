@@ -7,8 +7,9 @@ const Aboutme = () => {
         <>
             <h5 className='sub-title'>About me</h5>
             <p className='text'>
-                About me, I have completed ... course for frontend developers,
-                having produced 3 major works for my portfolio.
+                My goal is to create beautiful and functional web applications that enhance user experiences.
+                I am constantly working to improve my skills in frontend development and stay updated with
+                the latest trends in the field.
             </p>
             <div className='box-wrapper'>
                 {data.aboutMe.map(item => (

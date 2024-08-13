@@ -33,20 +33,18 @@ const data = {
         {
             imageUrl: '#',
             title: 'Project Title',
-            description: 'Project description some text ect. Lorem ipsum random text for project description. Hire me. Things what I did, what I learned and time spend on this project.',
+            description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean natoque penatibus et magnis dis parturient montes.',
             technologies: ['HTML', 'CSS', 'React JS', 'Redux', 'Node JS', 'Express JS', 'MongoDB', 'Swagger'],
             source: '1'
         }, {
             imageUrl: '#',
             title: 'Project Title',
-            description: 'Project description some text ect. Lorem ipsum random text for project description. Hire me. Things what I did, what I learned and time spend on this project.',
-            technologies: ['HTML', 'CSS', 'React JS', 'Redux', 'Node JS', 'Express JS', 'MongoDB', 'Swagger'],
+            description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean natoque penatibus et magnis dis parturient montes.', technologies: ['HTML', 'CSS', 'React JS', 'Redux', 'Node JS', 'Express JS', 'MongoDB', 'Swagger'],
             source: '2'
         }, {
             imageUrl: '#',
             title: 'Project Title',
-            description: 'Project description some text ect. Lorem ipsum random text for project description. Hire me. Things what I did, what I learned and time spend on this project.',
-            technologies: ['HTML', 'CSS', 'React JS', 'Redux', 'Node JS', 'Express JS', 'MongoDB', 'Swagger'],
+            description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean natoque penatibus et magnis dis parturient montes.', technologies: ['HTML', 'CSS', 'React JS', 'Redux', 'Node JS', 'Express JS', 'MongoDB', 'Swagger'],
             source: '3'
         }
     ],
@@ -80,16 +78,16 @@ const data = {
             company: 'LeetCode'
         }, {
             date: 'Mar 2024 - May 2024',
-            name: 'Frontend Development',
+            name: 'Full Stack Development',
             company: 'Mimo'
         }, {
-            date: 'Feb 2024 - Mar 2024',
-            name: 'Full Stack Development',
-            company: 'Company name 4'
-        }
+            date: 'Dec 2024 - Mar 2024',
+            name: 'Front-end Development',
+            company: 'Mimo'
+        },
     ],
     skills: [
-        'html', 'css', 'js', 'react', 'redux', 'node', 'next', 'figma'
+        'html', 'css', 'js', 'react', 'ts', 'node', 'next', 'figma'
     ],
     aboutMe: [
         {
@@ -99,24 +97,24 @@ const data = {
             id: 'Age',
             value: '21 Years'
         }, {
-            id: 'Nationality',
-            value: 'Ukrainian'
-        }, {
-            id: 'Freelance',
-            value: 'Available'
+            id: 'Hobbies',
+            value: 'Sport, Chess'
         }, {
             id: 'Phone',
             value: '(+380)95 104 9688'
-        }, {
-            id: 'Discord',
-            value: 'vlad#2816'
         }, {
             id: 'Email',
             value: 'vladisglyadelkin@gmail.com'
         }, {
             id: 'Languages',
             value: 'English, Ukrainian'
-        }
+        }, {
+            id: 'Location',
+            value: 'Ukraine, Marhanets'
+        }, {
+            id: 'Work Preference',
+            value: 'Remote'
+        },
     ],
     contact: [
         {
