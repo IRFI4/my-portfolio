@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.9cac774d.css",
-    "main.js": "/my-portfolio/static/js/main.bc120475.js",
-    "static/media/JS_CheatSheet.pdf": "/my-portfolio/static/media/JS_CheatSheet.51a8e7e8f4aa7950050e.pdf",
+    "main.css": "/my-portfolio/static/css/main.48997db3.css",
+    "main.js": "/my-portfolio/static/js/main.f91e9acb.js",
     "static/media/MPLUS1Code-Regular.woff": "/my-portfolio/static/media/MPLUS1Code-Regular.27d843eafe30f52dbafd.woff",
     "static/media/MPLUS1Code-Regular.woff2": "/my-portfolio/static/media/MPLUS1Code-Regular.bdf0bf89260de9c3549e.woff2",
     "static/media/background.jpg": "/my-portfolio/static/media/background.e59144cb8742f065cbfb.jpg",
     "static/media/photo.jpg": "/my-portfolio/static/media/photo.80b6ccb62f8278f2e556.jpg",
+    "static/media/hliadielkin-vlad-eng.pdf": "/my-portfolio/static/media/hliadielkin-vlad-eng.dc7d820a5f7f2e29d2dd.pdf",
     "static/media/MuseoModerno-Regular.woff": "/my-portfolio/static/media/MuseoModerno-Regular.74536b3ba088b54be8ee.woff",
     "static/media/MuseoModerno-Regular.woff2": "/my-portfolio/static/media/MuseoModerno-Regular.fbc4502097709f37be3b.woff2",
     "static/media/arialroundedmtbold.woff": "/my-portfolio/static/media/arialroundedmtbold.99b4a6e1c79a545163b3.woff",
-    "static/media/sprite.svg": "/my-portfolio/static/media/sprite.0fd7104c5abcf1c32a25882849f933e6.svg",
+    "static/media/sprite.svg": "/my-portfolio/static/media/sprite.df3814ca029acda1217eca7be2e74ba1.svg",
     "static/media/arialroundedmtbold.woff2": "/my-portfolio/static/media/arialroundedmtbold.f464166d2761650b7dcb.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.9cac774d.css.map": "/my-portfolio/static/css/main.9cac774d.css.map",
-    "main.bc120475.js.map": "/my-portfolio/static/js/main.bc120475.js.map"
+    "main.48997db3.css.map": "/my-portfolio/static/css/main.48997db3.css.map",
+    "main.f91e9acb.js.map": "/my-portfolio/static/js/main.f91e9acb.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cac774d.css",
-    "static/js/main.bc120475.js"
+    "static/css/main.48997db3.css",
+    "static/js/main.f91e9acb.js"
   ]
 }
