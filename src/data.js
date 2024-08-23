@@ -69,16 +69,16 @@ const data = {
     ],
     education: [
         {
-            date: 'Jul 2024 - Aug 2024',
-            name: 'Node.js Basics',
-            company: 'ITVDN'
+            date: 'Aug 2024',
+            name: 'Full Stack Development Bootcamp',
+            company: 'Udemy'
         }, {
-            date: 'Jun 2024 - Jul 2024',
+            date: 'Jul 2024 - Aug 2024',
             name: '30 Days of JavaScript',
             company: 'LeetCode'
         }, {
-            date: 'Mar 2024 - May 2024',
-            name: 'Full Stack Development',
+            date: 'Mar 2024 - Apr 2024',
+            name: 'SQL Basics',
             company: 'Mimo'
         }, {
             date: 'Dec 2024 - Mar 2024',
