@@ -37,36 +37,38 @@
 body {
     display: flex;
     justify-content: center;
-    // background: var(--primaryDark);
-    background: #222
-    // background-image: url(../assets/background-effects/grainy.svg);
+    background: var(--primaryDark);
 }
 
-body::before {
-  content: "";
+.background {
   position: fixed;
   inset: 0;
   z-index: 0;
-  pointer-events: none;
-  mix-blend-mode: overlay;
-  opacity: 1; /* вище для сильнішого шуму */
-  filter: contrast(140%) brightness(90%);
 
-  background-image: url(../assets/background-effects/grainy.svg);
-//   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>");
-  background-repeat: repeat;
-  background-size: 100px 100px;
+  background-image: linear-gradient(
+      135deg,
+      red 0%,
+      blue 50%,
+      green 100%
+    );
 
-  animation: grainShift 5s linear infinite;
-  will-change: transform;
+  -webkit-mask-image: url("../assets/background-effects/grainy.svg");
+  mask-image: url("../assets/background-effects/grainy.svg");
+
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+
+  -webkit-mask-size: 256px 256px;
+  mask-size: 256px 256px;
+
+  background-color: #fff; 
+  opacity: 0.15;
 }
 
-@keyframes grainShift {
-  0%   { transform: translate(0px, 0px); }
-  25%  { transform: translate(-6px, 2px); }
-  50%  { transform: translate(4px, -3px); }
-  75%  { transform: translate(-2px, 4px); }
-  100% { transform: translate(0px, 0px); }
+
+.App {
+  position: relative;
+  z-index: 1;
 }
 
 .text {

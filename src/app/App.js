@@ -15,14 +15,17 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Menu menuOpen={menuOpen} onClickMenu={toggleMenu} />
-      <Header onClickMenu={toggleMenu} />
-      <Profile />
-      <Projects />
-      <Resume />
-      <Contact />
-    </div>
+    <>
+      <div className='background'></div>
+      <div className="App">
+        <Menu menuOpen={menuOpen} onClickMenu={toggleMenu} />
+        <Header onClickMenu={toggleMenu} />
+        <Profile />
+        <Projects />
+        <Resume />
+        <Contact />
+      </div>
+    </>
   );
 }
 
