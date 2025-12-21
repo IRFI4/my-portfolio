@@ -92,16 +92,16 @@ const data = {
     aboutMe: [
         {
             id: 'Name',
-            value: 'Vlad Hliadielkin'
+            value: 'Vladyslav Hliadielkin'
         }, {
             id: 'Age',
-            value: '21 Years'
+            value: '23 Years'
         }, {
             id: 'Hobbies',
             value: 'Sport, Chess'
         }, {
             id: 'Phone',
-            value: '(+380)95 104 9688'
+            value: '(+48)690 931 180'
         }, {
             id: 'Email',
             value: 'vladisglyadelkin@gmail.com'
@@ -110,7 +110,7 @@ const data = {
             value: 'English, Ukrainian'
         }, {
             id: 'Location',
-            value: 'Ukraine, Marhanets'
+            value: 'Poland, Otwock'
         }, {
             id: 'Work Preference',
             value: 'Remote'
@@ -120,7 +120,7 @@ const data = {
         {
             icon: 'phone',
             id: 'Phone',
-            value: '(+380)95 104 9688'
+            value: '(+48)690 931 180'
         }, {
             icon: 'mail',
             id: 'Email',
@@ -128,7 +128,7 @@ const data = {
         }, {
             icon: 'location',
             id: 'Address',
-            value: 'Ukraine, Marhanets 53400'
+            value: 'Poland, Otwock 05-400'
         }
     ]
 }
